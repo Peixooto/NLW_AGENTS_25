@@ -1,4 +1,5 @@
 import {fastify} from 'fastify'
+import {sql} from './db/conenection.ts'
 import {
     serializerCompiler,
     validatorCompiler, 
